@@ -1,0 +1,64 @@
+body {
+    background-color: #FCFCFC;
+}
+.min-vh-30 {
+    min-height: 30vh!important;
+}
+.about_main {
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../img/about/introduction_main.png);
+    background-size: cover;
+    background-position: center;
+    max-width:none!important;
+    min-width: 1300px !important;
+    min-height: 800px !important;
+}
+.about_main_hr {
+    width: 3px !important;
+    height: 100px !important;
+    background: #a5a5a5;
+    opacity: 1;
+}
+.jb-wrap {
+    width: 60%;
+    margin: 10px auto;
+    position: relative;
+}
+.jb-wrap img {
+    width: 100%;
+    vertical-align: middle;
+}
+.jb-text {
+    padding: 5px;
+    text-align: center;
+    top: 43%;
+    left: 46%;
+    transform: translate( -50%, -50% );
+    width: 100%;
+}
+table {
+    border-collapse: separate;
+    text-align: center;
+    border-spacing: 15px 10px;
+}
+th {
+    background: #fff;
+}
+
+th, td {
+    border: 1px solid #6B83B2;
+    padding: 8px;
+    height: 60px;
+}
+
+.talk_bk {
+    background-image: url(../img/about/introduction_talk.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 557px;
+    background-size: contain;
+}
+
+.talk_intro {
+    transform: translate( -1%, 94% );
+    font-size: 18px;
+}
