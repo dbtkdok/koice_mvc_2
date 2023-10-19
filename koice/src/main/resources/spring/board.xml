@@ -10,7 +10,7 @@
 	<bean class="com.koice.mvc.service.LoginService" />
 	<bean class="com.koice.mvc.service.NoticeService" />
 	
-	<bean class="com.koice.mvc.dao.LoginServiceDAO" />
+	<bean class="com.koice.mvc.dao.LoginServiceDAOImpl" />
 	
 	<bean class="com.koice.mvc.vo.MemberVO" />
 	
